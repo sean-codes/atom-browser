@@ -1,9 +1,14 @@
 {
   "name": "atom-google",
   "main": "./lib/atom-google",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple Plugin/Package for searching goole inside the editor",
-  "keywords": [ "google", "atom", "atom google", "search google", "google search"
+  "keywords": [
+    "google",
+    "atom",
+    "atom google",
+    "search google",
+    "google search"
   ],
   "activationCommands": {
     "atom-workspace": "atom-google:toggle"
@@ -13,6 +18,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
