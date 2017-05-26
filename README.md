@@ -1,5 +1,11 @@
 # google-side package
 
-A short description of your package.
+Hi! This is a simple plugin for searching google inside atom!
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+# How to use
+
+Press `Ctrl-Alt-S`. Type your search term. Press Enter!
+
+# Google search will open!
+
+![A screenshot of your package]()
