@@ -1,5 +1,5 @@
 {
    "atom-workspace": {
-      "ctrl-alt-o": "atom-google:toggle"
+      "ctrl-alt-s": "atom-google:toggle"
    }
 }
