@@ -1,14 +1,14 @@
 {
   "name": "atom-google",
   "main": "./lib/atom-google",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple Plugin/Package for searching goole inside the editor",
-  "keywords": [
+  "keywords": [ "google", "atom", "atom google", "search google", "google search"
   ],
   "activationCommands": {
     "atom-workspace": "atom-google:toggle"
   },
-  "repository": "https://github.com/atom/atom-google",
+  "repository": "https://github.com/sean-codes/atom-google",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
