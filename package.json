@@ -2,17 +2,17 @@
   "name": "atom-google",
   "main": "./lib/atom-google",
   "version": "0.5.0",
-  "description": "Simple Plugin/Package for searching google inside the editor",
+  "description": "Simple Plugin/Package for searching google and previewing files inside the editor",
   "keywords": [
     "google",
     "atom",
     "atom google",
     "search google",
-    "google search"
+    "preview in atom",
+    "file preview",
+    "open file",
+    "view file"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-google:toggle"
-  },
   "repository": "https://github.com/sean-codes/atom-google",
   "license": "MIT",
   "engines": {
