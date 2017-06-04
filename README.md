@@ -10,4 +10,4 @@ Press `Ctrl-Alt-S`. Type your search term. Press Enter!
 
 ## You can also right click and preview your html files!
 
-![Atom google example](https://github.com/sean-codes/atom-google/blob/08e8f2286a43e9bef27100825d26aecf003ebd06/example.gif?raw=true)
+![Atom google example](https://github.com/sean-codes/atom-google/blob/master/example2.gif?raw=true)
