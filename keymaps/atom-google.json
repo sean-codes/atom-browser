@@ -1,5 +1,8 @@
 {
    "atom-workspace": {
-      "ctrl-alt-s": "atom-google:toggle"
+      "cmd-alt-s": "atom-google:toggle",
+      "cmd-alt-x": "atom-google:devtools",
+      "cmd-alt-r": "atom-google:reload",
+      "cmd-alt-v": "atom-google:showHide"
    }
 }
