@@ -1,7 +1,7 @@
 {
   "name": "atom-google",
   "main": "./lib/atom-google",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Simple Plugin/Package for searching google and previewing files inside the editor",
   "keywords": [
     "google",
