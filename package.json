@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "main": "./lib/atom-google",
-  "name": "atom-google",
+  "name": "atom-browser",
   "optionalDependencies": {},
   "readme": "# Atom Google/Preview Plugin\n\n![Atom google example](https://github.com/sean-codes/atom-google/blob/08e8f2286a43e9bef27100825d26aecf003ebd06/example.gif?raw=true)\n\nHi! This is a simple plugin for searching google inside atom!\n\n## How to use\n\nPress `Ctrl-Alt-S`. Type your search term. Press Enter!\n\n## You can also right click and preview your html files!\n\n![Atom google example](https://raw.githubusercontent.com/sean-codes/atom-google/master/example2.gif?v=3)\n",
   "readmeFilename": "README.md",
