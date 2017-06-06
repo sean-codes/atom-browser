@@ -4,5 +4,6 @@
       "cmd-alt-x": "atom-google:devtools",
       "cmd-alt-r": "atom-google:reload",
       "cmd-alt-v": "atom-google:showHide"
+
    }
 }

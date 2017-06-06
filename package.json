@@ -1,8 +1,14 @@
 {
-  "name": "atom-google",
-  "main": "./lib/atom-google",
-  "version": "0.9.0",
+  "bugs": {
+    "url": "https://github.com/sean-codes/atom-google/issues"
+  },
+  "dependencies": {},
   "description": "Simple Plugin/Package for searching google and previewing files inside the editor",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/sean-codes/atom-google#readme",
   "keywords": [
     "google",
     "atom",
@@ -13,10 +19,29 @@
     "open file",
     "view file"
   ],
-  "repository": "https://github.com/sean-codes/atom-google",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+  "main": "./lib/atom-google",
+  "name": "atom-google",
+  "optionalDependencies": {},
+  "readme": "# Atom Google/Preview Plugin\n\n![Atom google example](https://github.com/sean-codes/atom-google/blob/08e8f2286a43e9bef27100825d26aecf003ebd06/example.gif?raw=true)\n\nHi! This is a simple plugin for searching google inside atom!\n\n## How to use\n\nPress `Ctrl-Alt-S`. Type your search term. Press Enter!\n\n## You can also right click and preview your html files!\n\n![Atom google example](https://raw.githubusercontent.com/sean-codes/atom-google/master/example2.gif?v=3)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean-codes/atom-google.git"
   },
-  "dependencies": {}
+  "version": "0.9.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib\\atom-google-view.js",
+        "lib\\atom-google.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
 }
