@@ -4,11 +4,26 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.atom-google-webview{
+.atom-google-webview-container{
+   box-sizing:border-box;
+   padding:0px 12px;
    position:absolute;
+   top:0px;
+   left:0px;
    width:100%;
-   height:96%;
-   left:0px; top:37px;
+   height:100%;
+   padding:40px 12px 0px 12px;
+}
+.atom-google-view{
+   box-sizing:border-box;
+}
+.atom-google-webview{
+   box-sizing:border-box;
+   width:100%;
+   height:100%;
+   left:0px; top:40px;
+   background:@background-color-selected;
+   border-radius:2px;
 }
 
 .atom-google-navbar{
@@ -19,12 +34,13 @@
    z-index:100;
    display:flex;
    padding-top:0px;
+    border-bottom: none;
    input{
       width:100%;
    }
    .tooltip{
       pointer-events:none;
-      -webkit-transition-delay: 0s;
+      -webkit-transition-delay: 0s;a
       transition:all 0s;
    }
    button{
