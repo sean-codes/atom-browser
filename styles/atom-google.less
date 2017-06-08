@@ -40,10 +40,13 @@
    }
    .tooltip{
       pointer-events:none;
-      -webkit-transition-delay: 0s;a
+      -webkit-transition-delay: 0s;
       transition:all 0s;
    }
    button{
+      &#atom-browser-refreshButton.loading:before{
+         animation:atom-browser__spinrefresh 3s infinite linear;
+      }
       flex: 1;
        min-width: 33px;
        text-align: center;
@@ -67,4 +70,8 @@
          }
       }
    }
+}
+@keyframes atom-browser__spinrefresh{
+   0%{transform:rotateZ(0deg)}
+   100%{transform:rotateZ(359deg)}
 }
