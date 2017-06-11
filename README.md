@@ -3,7 +3,8 @@
 Hi! This is a simple plugin for a web browser in atom dock!
 
 ## Toggle Autoreload to refresh on save!
-![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example_reload.gif)
+
+
 
 ## Right click and preview your html files!
 
