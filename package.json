@@ -3,7 +3,7 @@
     "url": "https://github.com/sean-codes/atom-browser/issues"
   },
   "dependencies": {},
-  "description": "Simple Plugin/Package for searching google and previewing files inside the editor",
+  "description": "The package/plugin to Preview files, auto-reload, search google, browse the web",
   "devDependencies": {},
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -17,7 +17,7 @@
     "preview in atom",
     "file preview",
     "open file",
-    "view file"
+    "autoreload"
   ],
   "license": "MIT",
   "main": "./lib/atom-google",

@@ -1,6 +1,9 @@
 # Atom Google/Preview Plugin
 
-Hi! This is a simple plugin for a web browser in atom dock! 
+Hi! This is a simple plugin for a web browser in atom dock!
+
+## Toggle Autoreload to refresh on save!
+![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example3.gif)
 
 ## Right click and preview your html files!
 
