@@ -43,6 +43,9 @@
       -webkit-transition-delay: 0s;
       transition:all 0s;
    }
+   .atom-browser-btnandtooltip{
+      position:relative;
+   }
    button{
       &#atom-browser-refreshButton.loading:before{
          animation:atom-browser__spinrefresh 3s infinite linear;
@@ -52,20 +55,24 @@
        text-align: center;
        margin: 0px 2px;
        padding:0px;
+
+       &.active{
+          background:@button-background-color-selected;
+       }
       &:hover {
          + .tooltip{
             pointer-events:none;
             -webkit-transition-delay: 0.5s;
             transition:all 0.2s;
             z-index: 324234234234234234;
-            top: 26px;
-            left: 10px;
+            top: 27px;
+            left: -15px;
             position: absolute;
             opacity: 1;
             display: block;
 
             .tooltip-arrow{
-               left: 30%;
+               left: 20%;
             }
          }
       }
