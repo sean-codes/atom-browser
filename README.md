@@ -4,7 +4,7 @@ Hi! This is a simple plugin for a web browser in atom dock!
 
 ## Right click and preview your html files!
 
-![Atom google example](https://raw.githubusercontent.com/sean-codes/atom-google/master/example2.gif?v=3)
+![Atom google example](https://raw.githubusercontent.com/sean-codes/atom-google/master/example2.gif?v=4)
 
 ## Quickly search google
 
