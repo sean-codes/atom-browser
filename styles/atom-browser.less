@@ -60,8 +60,10 @@
    }
 
    button{
-      &#atombrowser-btn-reload.loading:before{
-         animation:keyframes-spin 3s infinite linear;
+      &#atombrowser-btn-reload.loading{
+         i:before{
+            animation:animation-spin 3s infinite linear;
+         }
       }
       width: 35px;
       text-align: center;
@@ -79,7 +81,7 @@
    }
 }
 
-@keyframes keyframes-spin{
+@keyframes animation-spin{
    0%{transform:rotateZ(0deg)}
    100%{transform:rotateZ(359deg)}
 }
