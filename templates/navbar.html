@@ -1,26 +1,26 @@
-<atom-panel class="padded atom-google-navbar native-key-bindings" style="dispaly:none">
-   <button id="atom-browser-backbutton" class="btn icon icon-chevron-left inline-block-tight"></button>
-   <div class="atom-browser-btnandtooltip">
-      <button id="atom-browser-refreshButton" class="btn icon icon-sync inline-block-tight"></button>
-      <div class='tooltip bottom'>
-         <div class='tooltip-arrow'></div>
-            <div class='tooltip-inner'>
-               Refresh <span class="keystroke">cmd-shift-r</span>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="atom-browser-btnandtooltip">
-      <button id="atom-browser-autorefresh" class="btn icon icon-zap inline-block-tight"></button>
-      <div class='tooltip bottom'>
-         <div class='tooltip-arrow'></div>
-            <div class='tooltip-inner'>
-                toggle reload on save
-            </div>
-         </div>
-      </div>
-   </div>
-   <input class="input-text native-key-bindings" type="text" placeholder="Search, File, Url">
-   <button id="atom-browser-devtools" class="btn icon icon-microscope inline-block-tight"></button>
-   <button id="atom-browser-btn-tabs" class="btn icon icon-browser inline-block-tight"></button>
+<atom-panel id="atombrowser-navbar" class="padded native-key-bindings">
+   <!-- Back Button -->
+   <button id="atombrowser-btn-back" class="btn">
+      <i class="icon icon-chevron-left"></i>
+   </button>
+   <!-- Back Button -->
+   <button id="atombrowser-btn-reload" class="btn">
+      <i class="icon icon-sync"></i>
+   </button>
+   <!-- Live Reload Button -->
+   <button id="atombrowser-btn-livereload" class="btn">
+      <i class="icon icon-zap"></i>
+   </button>
+
+   <!-- Address Bar -->
+   <input id="atombrowser-addressbar" class="input-text native-key-bindings" type="text" placeholder="Search, File, Url">
+
+   <!-- Live DevTools Button -->
+   <button id="atombrowser-btn-devtools" class="btn">
+      <i class="icon icon-settings"></i>
+   </button>
+   <!-- Live Tabs Button -->
+   <button id="atombrowser-btn-tabs" class="btn">
+      <i class="icon icon-browser"></i>
+   </button>
 </atom-panel>
