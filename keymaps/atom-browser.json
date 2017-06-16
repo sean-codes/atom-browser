@@ -2,7 +2,7 @@
    "atom-workspace": {
       "cmd-alt-x": "atom-google:devtools",
       "cmd-alt-r": "atom-google:reload",
-      "cmd-alt-s": "atom-google:search",
+      "cmd-ctrl-s": "atom-google:search",
       "cmd-alt-v": "atom-google:showHide"
    }
 }
