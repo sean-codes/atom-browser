@@ -4,5 +4,5 @@
       "cmd-alt-r": "atom-google:reload",
       "cmd-ctrl-s": "atom-google:search",
       "cmd-alt-v": "atom-google:showHide"
-   }
+   } 
 }
