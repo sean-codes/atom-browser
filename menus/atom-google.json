@@ -1,7 +1,7 @@
 {
    "context-menu":{
       "atom-text-editor":[
-         { "label": "Toggle Atom-Web", "command": "atom-google:toggle" }
+         { "label": "Toggle Atom-Web", "command": "atom-google:showHide" }
       ],
       ".tree-view .full-menu":[
          {"type": "separator"},
@@ -13,7 +13,7 @@
         [
            {
                "label": "atom-google", "submenu": [
-                  { "label": "Toggle", "command": "atom-google:toggle" }
+                  { "label": "Toggle", "command": "atom-google:showHide" }
                ]
             }
          ]
