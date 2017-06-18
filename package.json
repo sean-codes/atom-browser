@@ -13,11 +13,11 @@
     "browser",
     "preview html",
     "preview",
-    "search google",
-    "preview in atom",
+    "web view"
+    "html preview",
     "file preview",
     "open file",
-    "autoreload"
+    "live preview"
   ],
   "license": "MIT",
   "main": "./lib/atom-browser",
