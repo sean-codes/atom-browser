@@ -12,12 +12,9 @@
   "keywords": [
     "browser",
     "preview html",
-    "preview",
+    "live preview",
     "web view",
-    "html preview",
-    "file preview",
-    "open file",
-    "live preview"
+    "html preview"
   ],
   "license": "MIT",
   "main": "./lib/atom-browser",
