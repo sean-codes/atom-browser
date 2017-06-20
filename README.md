@@ -13,6 +13,6 @@ Hi! This is a simple plugin for a web browser in atom dock!
 
 ## Quickly search google or go to a url
 
-Press `Ctrl-Alt-V`. Type your search term. Press Enter!
+Press `Ctrl-CMD-S`. Type your search term. Press Enter!
 
 ![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example_search.gif?v=2)
