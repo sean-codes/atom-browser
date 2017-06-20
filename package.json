@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/sean-codes/atom-browser.git"
   },
-  "version": "0.45.0",
+  "version": "0.46.0",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
