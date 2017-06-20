@@ -3,7 +3,7 @@
     "url": "https://github.com/sean-codes/atom-browser/issues"
   },
   "dependencies": {},
-  "description": "The package/plugin to Preview files, auto-reload, search google, browse the web",
+  "description": "Atom-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom",
   "devDependencies": {},
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -11,8 +11,8 @@
   "homepage": "https://github.com/sean-codes/atom-browser#readme",
   "keywords": [
     "browser",
-    "preview html",
-    "live preview",
+    "preview",
+    "live reload",
     "web view",
     "html preview"
   ],
@@ -20,7 +20,7 @@
   "main": "./lib/atom-browser",
   "name": "atom-browser",
   "optionalDependencies": {},
-  "readme": "The package/plugin to Preview files, auto-reload, search google, browse the web",
+  "readme": "Atom-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
