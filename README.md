@@ -1,18 +1,19 @@
-# Atom Google/Preview Plugin
+# Atom Browser
 
-Hi! This is a simple plugin for a web browser in atom dock!
+Atom-Browser is the plugin to Browser the web, Preview files, Auto-Reload, and Search Google within Atom
 
 ## Right click and preview your html files
 
-![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example_preview.gif?v=2)
+![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example_preview.gif?v=3)
 
 
 ## Toggle Auto Reload on save
 
-![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example_reload.gif)
+![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example_reload.gif?v=3)
+Now when you save a file atom-browser will reload the page
 
-## Quickly search google or go to a url
+## Search Google
 
 Press `Ctrl-CMD-S`. Type your search term. Press Enter!
 
-![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example_search.gif?v=2)
+![Atom google example](https://github.com/sean-codes/atom-browser/raw/master/example_search.gif?v=3)
