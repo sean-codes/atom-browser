@@ -1,0 +1,53 @@
+[
+   {
+      "type": "atom-panel",
+      "attributes": { "id" : "atombrowser-navbar", "class": "padded native-key-bindings"},
+      "innerHTML": [
+         {
+            "type": "button",
+            "attributes": { "id": "atombrowser-btn-back", "class":"btn" },
+            "innerHTML": [
+               {
+                  "type": "i",
+                  "attributes": {"class":"icon icon-chevron-left"}
+               }
+            ]
+         },
+         {
+            "type": "button",
+            "attributes": { "id": "atombrowser-btn-reload", "class":"btn" },
+            "innerHTML": [
+               {
+                  "type": "i",
+                  "attributes": {"class":"icon icon-sync"}
+               }
+            ]
+         },
+         {
+            "type": "button",
+            "attributes": { "id": "atombrowser-btn-livereload", "class":"btn" },
+            "innerHTML": [
+               {
+                  "type": "i",
+                  "attributes": {"class":"icon icon-zap"}
+               }
+            ]
+         },
+         {
+            "type": "input",
+            "attributes": { "type": "text", "id": "atombrowser-addressbar", "class":"input-text native-key-bindings", "placeholder": "Search, File, Url" }
+         },
+         {
+            "type": "button",
+            "attributes": { "id": "atombrowser-btn-devtools", "class":"btn" },
+            "innerHTML": [
+               {
+                  "type": "i",
+                  "attributes": {"class":"icon icon-settings"}
+               }
+            ]
+         }
+      ]
+   }
+
+]
