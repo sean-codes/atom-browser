@@ -1,0 +1,34 @@
+[
+   {
+      "type": "atom-panel",
+      "attributes": { "class": "modal tabs", "id": "atombrowser-tabs" },
+      "innerHTML": [
+         {
+            "type": "div",
+            "attributes": { "class": "select-list" },
+            "innerHTML": [
+               {
+                  "type": "li",
+                  "innerHTML": [
+                     {
+                        "type": "div",
+                        "attributes": [{"class": "icon icon-file-text"}],
+                        "innerHTML": "Tab 1"
+                     }
+                  ]
+               },
+               {
+                  "type": "li",
+                  "innerHTML": [
+                     {
+                        "type": "div",
+                        "attributes": [{"class": "icon status-added icon icon-diff-added"}],
+                        "innerHTML": "Open New Tab"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]
