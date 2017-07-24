@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/sean-codes/atom-browser.git"
   },
-  "version": "0.49.0",
+  "version": "0.50.0",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
@@ -41,8 +41,8 @@
     },
     "folders": []
   },
-  "configSchema" : {
-    "viewShowBackground" : {
+  "configSchema": {
+    "viewShowBackground": {
       "title": "Show Background",
       "description": "The default background is dark grey. Enable this for white",
       "type": "boolean",
