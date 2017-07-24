@@ -37,16 +37,17 @@
    padding:40px 12px 0px 12px;
    color:white;
    #atombrowser-webview{
-      object{ width:100%: height:100%; }
+      #browserplugin{ width:100%: height:100%; }
       left:0px; top:40px;
       box-sizing:border-box;
       width:100%;
       height:100%;
       border-radius:2px;
       background:@background-color-selected;
-      display:block;
+      display:flex;
       transition:all 0.25s;
    }
+
    &.showBackground{
       #atombrowser-webview{
          background:#FFF;
