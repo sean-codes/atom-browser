@@ -5,8 +5,8 @@
       "innerHTML": [
          {
             "type": "webview",
-            "attributes": { "id": "atombrowser-webview", "class": "native-key-bindings", "src": "https://google.com" }
-         } 
+            "attributes": { "id": "atombrowser-webview", "class": "native-key-bindings", "src": "" }
+         }
       ]
    }
 ]
