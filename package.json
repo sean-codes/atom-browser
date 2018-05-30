@@ -50,7 +50,7 @@
     },
     "viewDefaultLocation": {
       "title": "Default Location",
-      "description": "Choose the default dock location for the Atom Browser: right, left or bottom",
+      "description": "Choose the default dock location for the Atom Browser: right, left or bottom. (Reload Atom to change the dock location.)",
       "type": "string",
       "default": "right",
       "enum": [
