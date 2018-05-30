@@ -47,6 +47,26 @@
       "description": "The default background is dark grey. Enable this for white",
       "type": "boolean",
       "default": false
+    },
+    "viewDefaultLocation": {
+      "title": "Default Location",
+      "description": "Choose the default dock location for the Atom Browser: right, left or bottom",
+      "type": "string",
+      "default": "right",
+      "enum": [
+        {
+          "value": "right",
+          "description": "Right Dock"
+        },
+        {
+          "value": "left",
+          "description": "Left Dock"
+        },
+        {
+          "value": "bottom",
+          "description": "Bottom Dock"
+        }
+      ]
     }
   }
 }
