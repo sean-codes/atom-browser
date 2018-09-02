@@ -46,7 +46,7 @@
       "title": "Show Background",
       "description": "The default background is dark grey. Enable this for white",
       "type": "boolean",
-      "default": false
+      "default": true
     }
   }
 }
