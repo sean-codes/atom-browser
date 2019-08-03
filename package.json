@@ -4,7 +4,20 @@
   },
   "dependencies": {},
   "description": "Atom-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^13.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.0.2",
+    "prettier": "^1.18.2"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
@@ -52,7 +65,12 @@
     "defaultLocation": {
       "title": "Default Location",
       "type": "string",
-      "enum": ["left", "center", "bottom", "right"],
+      "enum": [
+        "left",
+        "center",
+        "bottom",
+        "right"
+      ],
       "default": "bottom",
       "radio": true,
       "order": 2
@@ -61,9 +79,33 @@
       "title": "Splitting rule",
       "type": "string",
       "default": "no split",
-      "enum": ["no split", "left", "up", "right", "down"],
+      "enum": [
+        "no split",
+        "left",
+        "up",
+        "right",
+        "down"
+      ],
       "radio": true,
       "order": 3
     }
+  },
+  "deserializers": {
+    "AtomBrowserView": "deserialize"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{lib,spec}/**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "eslint": "eslint --fix \"./{lib,spec}/**/*.js\"",
+    "prettier": "prettier --write \"./lib/**/*.js\" \"./spec/**/*.js\""
   }
 }
