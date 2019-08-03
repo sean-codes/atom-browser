@@ -1,8 +1,20 @@
 {
-   "atom-workspace": {
-      "cmd-alt-x": "atom-browser:devtools",
-      "cmd-alt-r": "atom-browser:reload",
-      "cmd-ctrl-s": "atom-browser:search",
-      "cmd-alt-v": "atom-browser:showHide"
-   }
+  ".platform-darwin atom-workspace": {
+    "cmd-alt-x": "atom-browser:devtools",
+    "cmd-alt-r": "atom-browser:reload",
+    "cmd-ctrl-s": "atom-browser:search",
+    "cmd-alt-v": "atom-browser:toggle"
+  },
+  ".platform-win32 atom-workspace": {
+    "ctrl-alt-x": "atom-browser:devtools",
+    "ctrl-alt-r": "atom-browser:reload",
+    "ctrl-ctrl-s": "atom-browser:search",
+    "ctrl-alt-v": "atom-browser:toggle"
+  },
+  ".platform-linux atom-workspace": {
+    "ctrl-alt-x": "atom-browser:devtools",
+    "ctrl-alt-r": "atom-browser:reload",
+    "ctrl-ctrl-s": "atom-browser:search",
+    "ctrl-alt-v": "atom-browser:toggle"
+  }
 }

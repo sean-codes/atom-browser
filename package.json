@@ -46,7 +46,24 @@
       "title": "Show Background",
       "description": "The default background is dark grey. Enable this for white",
       "type": "boolean",
-      "default": true
+      "default": true,
+      "order": 1
+    },
+    "defaultLocation": {
+      "title": "Default Location",
+      "type": "string",
+      "enum": ["left", "center", "bottom", "right"],
+      "default": "bottom",
+      "radio": true,
+      "order": 2
+    },
+    "split": {
+      "title": "Splitting rule",
+      "type": "string",
+      "default": "no split",
+      "enum": ["no split", "left", "up", "right", "down"],
+      "radio": true,
+      "order": 3
     }
   }
 }
