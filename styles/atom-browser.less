@@ -55,7 +55,7 @@
 
       &.show-background {
          background: #FFF;
-         color: #000;      
+         color: #000;
       }
    }
 
@@ -104,6 +104,19 @@
       &.active {
          background: @base-color;
       }
+   }
+}
+
+.atombrowser-icon-container {
+   background: inherit;
+   border: none;
+   white-space: nowrap;
+
+   &:hover {
+      background: @button-background-color-hover;
+   }
+   .atombrowser-icon {
+      margin-right: -0.5em;
    }
 }
 

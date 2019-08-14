@@ -12,7 +12,7 @@ module.exports = () => {
 
          <!-- open devtools -->
          <button id="atombrowser-btn-devtools" class="btn"><i class="icon icon-settings"></i></button>
-         
+
       </atom-panel>
-   `
+   `.trim()
 }
