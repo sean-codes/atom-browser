@@ -28,7 +28,7 @@
       "type": "git",
       "url": "git@github.com:sean-codes/atom-browser.git"
    },
-   "version": "0.70.0",
+   "version": "1.0.0",
    "_atomModuleCache": {
       "version": 1,
       "dependencies": [],
@@ -84,7 +84,8 @@
          "description": "Choose the default dock location for the Atom Browser: right or bottom",
          "type": "string",
          "default": "right",
-         "enum": [{
+         "enum": [
+            {
                "value": "right",
                "description": "Right Dock"
             },
