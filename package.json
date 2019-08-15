@@ -26,7 +26,7 @@
    "readmeFilename": "README.md",
    "repository": {
       "type": "git",
-      "url": "https://github.com/sean-codes/atom-browser.git"
+      "url": "git@github.com:sean-codes/atom-browser.git"
    },
    "version": "0.70.0",
    "_atomModuleCache": {
