@@ -1,4 +1,7 @@
 {
+   "scripts": {
+      "test": "atom --test spec"
+   },
    "bugs": {
       "url": "https://github.com/sean-codes/atom-browser/issues"
    },
