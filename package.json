@@ -51,6 +51,12 @@
       }
    },
    "configSchema": {
+      "reloadDelay": {
+         "title": "Reload on save delay",
+         "description": "Time in ms to wait before reloading (1000ms = 1second)",
+         "type": "integer",
+         "default": 500
+      },
       "showIcon": {
          "title": "Show Statusbar Icon",
          "description": "Toggles the statusbar icon",
