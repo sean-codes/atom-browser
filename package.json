@@ -106,6 +106,29 @@
          "description": "An initial URL to start in",
          "type": "string",
          "default": ""
+      },
+      "z_experimental": {
+         "type": "object",
+         "title": "⚠️Experimental Features",
+         "properties": {
+            "emitterEnabled": {
+               "title": "Save ScrollY on reload. Enables emitting data from webview to atom",
+               "description": "Runs a websocket server that receives events from the iframe.",
+               "type": "boolean",
+               "default": "false"
+            },
+            "emitterPort": {
+               "title": "Emitter port",
+               "description": "Receive Emitter messages on port.",
+               "type": "number",
+               "default": "44951",
+               "minimum": 1,
+               "maximum": 65536
+            }
+         }
       }
+   },
+   "dependencies": {
+      "ws": "^7.2.0"
    }
 }
