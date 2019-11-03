@@ -11,7 +11,7 @@ module.exports = () => {
          <input type="text" id="atombrowser-addressbar" class="input-text native-key-bindings" placeholder="Search, File, Url"/>
 
          <!-- open devtools -->
-         <button id="atombrowser-btn-devtools" class="btn"><i class="icon icon-settings"></i></button>
+         <button id="atombrowser-btn-devtools" class="btn"><i class="icon icon-terminal"></i></button>
 
       </atom-panel>
    `.trim()
