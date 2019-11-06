@@ -121,6 +121,12 @@
                "title": "Automatically open devtools",
                "type": "boolean",
                "default": "false"
+            },
+            "pass_console": {
+               "title": "Pass console to atoms",
+               "description": "console.logs will be passed to Atoms internal dev tools",
+               "type": "boolean",
+               "default": "false"
             }
          }
       }
