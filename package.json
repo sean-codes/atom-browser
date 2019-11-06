@@ -55,7 +55,7 @@
          "title": "Reload on save delay",
          "description": "Time in ms to wait before reloading (1000ms = 1second)",
          "type": "integer",
-         "default": 500
+         "default": 250
       },
       "showIcon": {
          "title": "Show Statusbar Icon",
@@ -112,23 +112,17 @@
          "title": "⚠️Experimental Features",
          "properties": {
             "emitterEnabled": {
-               "title": "Save ScrollY on reload. Enables emitting data from webview to atom",
-               "description": "Runs a websocket server that receives events from the iframe.",
+               "title": "Save ScrollY on reload",
+               "description": "Save ScrollY on reload. Enables emitting data from webview to atom",
                "type": "boolean",
                "default": "false"
             },
-            "emitterPort": {
-               "title": "Emitter port",
-               "description": "Receive Emitter messages on port.",
-               "type": "number",
-               "default": "44951",
-               "minimum": 1,
-               "maximum": 65536
+            "devtools": {
+               "title": "Automatically open devtools",
+               "type": "boolean",
+               "default": "false"
             }
          }
       }
-   },
-   "dependencies": {
-      "ws": "^7.2.0"
    }
 }
