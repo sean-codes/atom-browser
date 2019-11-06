@@ -1,7 +1,8 @@
 module.exports = () => {
    return  `
-      <button class="atombrowser-icon-container">
-         <span class="icon icon-browser atombrowser-icon"></span> Browser
-      </button>
+      <div class="inline-block text">
+         <span class="icon icon-browser atombrowser-icon"></span>
+         <span>Browser</span>
+      </div>
    `.trim()
 }

@@ -59,6 +59,36 @@
       }
    }
 
+   #atombrowser-webview-failed-load {
+      position: absolute;
+      top: calc(50% + 8px);
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      color: @text-color;
+      width: 100%;
+      padding: 0 2rem;
+      max-width: 400px;
+
+      i {
+         margin: 0 auto;
+         display:block;
+         text-align: center;
+      }
+
+      i:before {
+         animation: atombrowser-in-down 0.2s ease-in-out;
+         font-size: 48px;
+         width: 44px;
+         height: 60px;
+      }
+
+      h4 {
+         opacity: 0;
+         animation: atombrowser-in-up 0.2s ease-in-out forwards;
+         animation-delay: 0.1s;
+         text-align: left;
+      }
+   }
 }
 
 #atombrowser-navbar {
@@ -72,7 +102,6 @@
    }
 
    button {
-
       width: 35px;
       text-align: center;
       margin: 0 2px;
@@ -107,19 +136,6 @@
    }
 }
 
-.atombrowser-icon-container {
-   background: inherit;
-   border: none;
-   white-space: nowrap;
-
-   &:hover {
-      background: @button-background-color-hover;
-   }
-   .atombrowser-icon {
-      margin-right: -0.5em;
-   }
-}
-
 @keyframes animation-spin {
    0% {
       transform: rotateZ(0deg) translateX(-50%) translateY(-50%);
@@ -128,4 +144,14 @@
    100% {
       transform: rotateZ(359deg) translateX(-50%) translateY(-50%);
    }
+}
+
+@keyframes atombrowser-in-down {
+   from { transform: translateY(-50px); opacity: 0; }
+   to { transform: translateY(0px); opacity: 1; }
+}
+
+@keyframes atombrowser-in-up {
+   from { transform: translateY(50px); opacity: 0; }
+   to { transform: translateY(0px); opacity: 1; }
 }

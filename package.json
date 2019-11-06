@@ -124,5 +124,8 @@
             }
          }
       }
+   },
+   "dependencies": {
+      "inspirational-quotes": "^1.0.8"
    }
 }
