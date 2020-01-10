@@ -89,7 +89,7 @@
          "title": "Default Location",
          "description": "Choose the default dock location for the Atom Browser: right or bottom",
          "type": "string",
-         "default": "right",
+         "default": "bottom",
          "enum": [
             {
                "value": "right",
