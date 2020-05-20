@@ -121,6 +121,12 @@
                "title": "Automatically open devtools",
                "type": "boolean",
                "default": "false"
+            },
+            "url_overwrite": {
+               "title": "URL Overwrites",
+               "description": "Paths to overwrite when right click previewing a file. Allows you to map a filepath to your localhost!",
+               "type": "string",
+               "default": "[ { \"replace\": \"example/filepath\", \"with\": \"localhost:8000\" } ]"
             }
          }
       }
