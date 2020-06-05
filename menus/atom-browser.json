@@ -1,14 +1,10 @@
 {
    "context-menu": {
-      "atom-text-editor": [{
-         "label": "Toggle Atom-Web",
-         "command": "atom-browser:showHide"
-      }],
       ".tree-view .full-menu": [{
             "type": "separator"
          },
          {
-            "label": "Atom Preview",
+            "label": "Atom Browser: Preview",
             "command": "atom-browser:preview"
          }
       ]
@@ -17,10 +13,16 @@
       "label": "Packages",
       "submenu": [{
          "label": "Atom Browser",
-         "submenu": [{
-            "label": "Toggle",
-            "command": "atom-browser:showHide"
-         }]
+         "submenu": [
+            {
+               "label": "Toggle",
+               "command": "atom-browser:showHide"
+            },
+            {
+               "label": "Preview",
+               "command": "atom-browser:preview"
+            }
+         ]
       }]
    }]
 }
