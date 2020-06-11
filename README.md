@@ -1,6 +1,3 @@
-| :exclamation:  The latest Atom 1.47 updates electron to version 5. Electron 5 disables webview by default. There is an update coming to atom to enable webview. If you use atom-browser or other webview based plugins like markdown preview plus please stay on version 1.46: https://github.com/atom/atom/releases/tag/v1.46.0.  |
-|-----------------------------------------|
-
 # Atom Browser
 
 Atom-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom
