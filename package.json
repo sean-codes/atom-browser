@@ -109,7 +109,7 @@
       },
       "z_experimental": {
          "type": "object",
-         "title": "⚠️Experimental Features",
+         "title": "⚠️ Experimental Features",
          "properties": {
             "emitterEnabled": {
                "title": "Save ScrollY on reload",
@@ -127,8 +127,17 @@
                "description": "Paths to overwrite when right click previewing a file. Allows you to map a filepath to your localhost!",
                "type": "string",
                "default": "[ { \"replace\": \"example/filepath\", \"with\": \"localhost:8000\" } ]"
+            },
+            "static_server": {
+               "title": "Static Serve",
+               "description": "Preview files from a local webserver",
+               "type": "boolean",
+               "default": "false"
             }
          }
       }
+   },
+   "dependencies": {
+      "express": "^4.17.1"
    }
 }
