@@ -51,23 +51,31 @@
       }
    },
    "configSchema": {
-      "reloadDelay": {
-         "title": "Reload on save delay",
-         "description": "Time in ms to wait before reloading (1000ms = 1second)",
-         "type": "integer",
-         "default": 250
-      },
       "reloadByDefault": {
          "title": "Reload by default",
          "description": "Toggles auto reload to be on by default",
          "type": "boolean",
          "default": false
       },
+      "reloadDelay": {
+         "title": "Reload on save delay",
+         "description": "Time in ms to wait before reloading (1000ms = 1second)",
+         "type": "integer",
+         "default": 250
+      },
       "showZoomButtons": {
          "title": "Show zoom buttons",
          "description": "Toggles zoom buttons",
          "type": "boolean",
          "default": false
+      },
+      "showZoomFactor": {
+         "title": "Zoom Factor",
+         "description": "Changes the zoom factor to the specified factor. Zoom factor is zoom percent divided by 100, so 300% = 3.0.",
+         "type": "number",
+         "default": 1,
+         "minimum": 0.1,
+         "maximum": 5
       },
       "showIcon": {
          "title": "Show Statusbar Icon",
