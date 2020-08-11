@@ -9,42 +9,19 @@
 #atombrowser-view {
    box-sizing: border-box;
    z-index: 1;
-
-   #atombrowser-tabs {
-      border-bottom: none;
-      border-bottom: none;
-      top: 38px;
-      right: 17px;
-      position: absolute;
-
-      &:after {
-         position: absolute;
-         background: none;
-      }
-
-      &:before {
-         top: 8px;
-      }
-
-      .list-group li:hover {
-         background: @background-color-success;
-      }
-   }
+   display: flex;
+   flex-direction: column;
 }
 
 .atombrowser-webview-container {
    box-sizing: border-box;
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   padding: 38px 8px 0;
+   flex: 1;
+   padding: 0 8px;
    color: white;
 
    #atombrowser-webview {
       left: 0;
-      top: 40px;
+      top: 0;
       box-sizing: border-box;
       width: 100%;
       height: 100%;
