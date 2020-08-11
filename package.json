@@ -63,6 +63,12 @@
          "type": "boolean",
          "default": false
       },
+      "showZoomButtons": {
+         "title": "Show zoom buttons",
+         "description": "Toggles zoom buttons",
+         "type": "boolean",
+         "default": false
+      },
       "showIcon": {
          "title": "Show Statusbar Icon",
          "description": "Toggles the statusbar icon",
