@@ -57,6 +57,12 @@
          "type": "integer",
          "default": 250
       },
+      "reloadByDefault": {
+         "title": "Reload by default",
+         "description": "Toggles auto reload to be on by default",
+         "type": "boolean",
+         "default": false
+      },
       "showIcon": {
          "title": "Show Statusbar Icon",
          "description": "Toggles the statusbar icon",
