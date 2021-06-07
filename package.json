@@ -8,7 +8,7 @@
    "description": "Atom-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom",
    "devDependencies": {},
    "engines": {
-      "atom": ">=1.0.0 <2.0.0"
+      "atom": ">=1.57.0 <2.0.0"
    },
    "homepage": "https://github.com/sean-codes/atom-browser#readme",
    "keywords": [
